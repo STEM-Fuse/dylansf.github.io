@@ -2,35 +2,23 @@
 
 * {
   font-family: 'Inconsolata', monospace;
-  background-color: $color-primary-4;  
+  background-color: #006A6A;  
   font-size: 16px;
   padding: 10px;
 }
 h1 {
   font-size: 32px;
-  color: var(--color-complement-4);
-  background-color:var(--color-primary-1);
+  color: var(#B15000);
+  background-color:var(#95D2D2);
   text-align: left;
   padding: 10px;
 }
 p {
-  background-color:#485568;
+  background-color:#006A6A ;
   padding: 10px;
 }
 .page {
-  border: 1px solid #463D2E;
-  background-color: #78879D;
+  border: 1px solid #B15000;
+  background-color: #95D2D2;
   padding: 10px;
 }
-
-.color-primary-0 { color: #485568 }	/* Main Primary color */
-.color-primary-1 { color: #20252E }
-.color-primary-2 { color: #37404E }
-.color-primary-3 { color: #5B6980 }
-.color-primary-4 { color: #78879D }
-
-.color-complement-0 { color: #9E8A68 }	/* Main Complement color */
-.color-complement-1 { color: #463D2E }
-.color-complement-2 { color: #76684F }
-.color-complement-3 { color: #C1AA83 }
-.color-complement-4 { color: #EED7B0 }
