@@ -39,7 +39,10 @@ Now we are making a page with HTML5 specific tags.
     <h2> Article</h2>
     <section>
       <h3>Preview of Portfolio item 1</h3>
-
+      <figure>
+        <img src="">
+      <figcaption></figcaption>
+      </figure>
     </section>
     <section>
         <h3>Preview of Portfolio item 2</h3>
