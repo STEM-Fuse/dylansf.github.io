@@ -10,7 +10,11 @@ We will explore color by using some online tools to create color palettes, then 
 
 ### Material design palette
 Select two colors. 
+
 ![Screenshot of Color Selector](http://via.placeholder.com/640x480)
+
 Find your palette in the bottom right. Now you can export your palette in CSS (among many others).
+
 ![Screenshot of Palette](http://via.placeholder.com/640x480)
+
 
