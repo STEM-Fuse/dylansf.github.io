@@ -4,7 +4,8 @@
 
 ## 1. Introduction to Web Design
 
-1. Simple Sample <span> <script src="https://apis.google.com/js/platform.js" async defer></script>
+1. Simple Sample <span> 
+<script src="https://apis.google.com/js/platform.js" async defer></script>
   <g:sharetoclassroom url="https://s3.amazonaws.com/stemfuse/Courses/Frond_End_Development/content/index.html" size="32"></g:sharetoclassroom>
 </span>
 2. Getting Started
