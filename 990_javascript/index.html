@@ -1,32 +1,27 @@
 <!DOCTYPE html>
-<html>
- <head>
-  <title>Javascript</title>
+<html lang="en" >
 
+<head>
+  <meta charset="UTF-8">
+  <title>Javascript</title>
   <script>
-    function newfunkyfunc(){
-        document.write("Funky Func")
+    sum = 0;
+    n = 0;
+    while(n<1000){
+        if (n%3 == 0){
+            sum += n;
+        } else if (n%5 == 0){
+            sum += n;
+        }
+        n++;
     }
-  </script>
+    console.log(sum);
+    document.getElementById("headerOne").innerHTML = sum;
+    </script>
  </head>
  <body>
-    <script>
-        var myvariable; // this is a comment
-        myvariable = 5;
-        var words = "This is";
-        var morewords = "a sentence";
-        var sentence = words + morewords;
-        document.write(morewords.length);
-        var a = new Array("cat", "dog", 7)
-        var b = ["cat", "dog", false]
-        if (b.length > 2){
-            alert("Big b");
-            newfunkyfunc();
-        }
 
-
-    </script>
-  <h1>Sample page</h1>
+  <h1 id="headerOne">Sample page</h1>
   <p>This is a <a href="demo.html">simple</a> sample.</p>
   <!-- this is a comment -->
  </body>
