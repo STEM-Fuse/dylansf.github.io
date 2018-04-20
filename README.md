@@ -16,8 +16,23 @@
 3. Boxes
 4. HTML5
 
-## 3. The Interactive Web
+## 3. Libraries (Advanced Web)
 
-1. Libraries
+1. CSS Grid
 2. Bootstrap
-3. JavaScript
+
+## 4. JavaScript
+
+1. Intro to JavaScript
+2. Programming Fundamentals
+3. Snake
+4. Working with the DOM
+
+## 5. Capstone Project
+
+1. Design Cycle
+2. Initial Pitch and Vote
+3. Problem Statement
+4. Proposed Solution
+5. MVP
+6. Final Pitch
