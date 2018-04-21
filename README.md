@@ -6,29 +6,29 @@
 
 ### [1.1. Simple Sample](https://github.com/dylansf/dylansf.github.io/tree/master/010_simple_sample)
 Look at a basic HTML file.  
-### 1.2. Getting Started
+### [1.2. Getting Started](https://github.com/dylansf/dylansf.github.io/tree/master/020_getting_started)
 Exploring HTML
-### 1.3. Lists and Tables
-### 1.4. Forms
+### [1.3. Lists and Tables](https://github.com/dylansf/dylansf.github.io/tree/master/030_lists_tables)
+### [1.4. Forms](https://github.com/dylansf/dylansf.github.io/tree/master/035_forms)
 
 ## 2. Look and Feel of the Web
 
-### 2.1. Style
-### 2.2. Color
-### 2.3. Boxes
-### 2.4. HTML5
+### [2.1. Style](https://github.com/dylansf/dylansf.github.io/tree/master/040_style)
+### [2.2. Color](https://github.com/dylansf/dylansf.github.io/tree/master/050_Color)
+### [2.3. Boxes](https://github.com/dylansf/dylansf.github.io/tree/master/080_Boxes)
+### [2.4. HTML5](https://github.com/dylansf/dylansf.github.io/tree/master/090_HTML5)
 
 ## 3. Libraries (Advanced Web)
 
-### 3.1. CSS Grid
-### 3.2. Bootstrap
+### 3.1. [CSS Grid](https://github.com/dylansf/dylansf.github.io/tree/master/095_cssgrid)
+### 3.2. [Bootstrap](https://github.com/dylansf/dylansf.github.io/tree/master/100_bootstrap)
 
 ## 4. JavaScript
 
-### 4.1. Intro to JavaScript
-### 4.2. Programming Fundamentals
-### 4.3. Snake
-### 4.4. Working with the DOM
+### [4.1. Intro to JavaScript]()
+### [4.2. Programming Fundamentals]()
+### [4.3. Snake]()
+### [4.4. Working with the DOM]()
 
 ## 5. Capstone Project
 
