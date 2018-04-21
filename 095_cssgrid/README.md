@@ -8,6 +8,11 @@ CSS grid is a feature available on all modern browsers that lets designers lay o
 5. grid track
 6. grid area
 7. grid gap
+## Defining a Grid
+
+## Adding Elements to a Grid
+
+## Building Responsive Web Pages
 
 ## Bibliography
 [Grid by Example](https://gridbyexample.com/)

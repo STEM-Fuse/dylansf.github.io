@@ -1,6 +1,4 @@
-# dylansf.github.io
-
-# Introduction to Front End Development
+# Introduction to Web Development
 
 ## 1. Introduction to Web Design
 
