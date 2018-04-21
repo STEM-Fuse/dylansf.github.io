@@ -4,7 +4,7 @@
 
 ## 1. Introduction to Web Design
 
-### 1.1. Simple Sample
+### [1.1. Simple Sample](https://github.com/dylansf/dylansf.github.io/tree/master/010_simple_sample)
 Look at a basic HTML file.  
 ### 1.2. Getting Started
 Exploring HTML
