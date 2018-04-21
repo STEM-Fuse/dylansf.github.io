@@ -14,6 +14,8 @@ CSS grid is a feature available on all modern browsers that lets designers lay o
 
 ## Building Responsive Web Pages
 
+## Feature List
+
 ## Bibliography
 1. [Grid by Example](https://gridbyexample.com/)
 2. [MDN Web Docs on Grid](https://developer.mozilla.org/en-US/docs/Web/CSS/grid)

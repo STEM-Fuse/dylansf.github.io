@@ -39,6 +39,8 @@ And here is an image of the palette. Generate this image by exporting the PNG of
 
 I am using this color scheme for the rest of the project. 
 
+## Feature List
+
 ## To Do
 1. Moved most of the content of this into HTML5 Section. 
 2. Redo this index.html just using these colors. Maybe build the site with just `<div>`
