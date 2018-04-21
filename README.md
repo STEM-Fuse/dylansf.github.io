@@ -5,7 +5,9 @@
 ## 1. Introduction to Web Design
 
 ### 1.1. Simple Sample
+Look at a basic HTML file.  
 ### 1.2. Getting Started
+Exploring HTML
 ### 1.3. Lists and Tables
 ### 1.4. Forms
 
