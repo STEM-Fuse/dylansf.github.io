@@ -32,9 +32,9 @@ Exploring HTML
 
 ## 5. Capstone Project
 
-### 5.1. Design Cycle
-### 5.2. Initial Pitch and Vote
-### 5.3. Problem Statement
-### 5.4. Proposed Solution
-### 5.5. MVP
-### 5.6. Final Pitch
+### [5.1. Design Cycle]()
+### [5.2. Initial Pitch and Vote]()
+### [5.3. Problem Statement]()
+### [5.4. Proposed Solution]()
+### [5.5. MVP]()
+### [5.6. Final Pitch]()
