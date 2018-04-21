@@ -23,10 +23,10 @@ p {
 
 ## Fonts
 ### Font Family
-Specify different degrees of specificity so that if the computer doesn't have the font you want it will fall back to the next best thing. 
+Declare  different degrees of specificity so that if the computer doesn't have the font you want it will fall back to the next best thing. 
 ### Resources for free fonts
-[FontSquirrel](https://www.fontsquirrel.com/)
-[Google Fonts](https://fonts.google.com/)
+* [FontSquirrel](https://www.fontsquirrel.com/)
+* [Google Fonts](https://fonts.google.com/)
 
 ## Feature List
 * 3 Complete HTML pages
