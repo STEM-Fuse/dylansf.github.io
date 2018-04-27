@@ -5,4 +5,4 @@
 ## [Game IT Advanced]()
 
 ## Development Resources
-* [Carbon](https://carbon.now.sh), make pretty code
+* [Carbon:](https://carbon.now.sh) make pretty code images
