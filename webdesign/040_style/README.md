@@ -1,6 +1,12 @@
 # Style
+
+## To Do
+1. Make to-do list
+
+
 ## What is style?
 In a webpage style refers to all the ways you can change how a part of the page looks. You can change colors, sizes, place on the page, fonts, borders and much more. We will start by adding some background and text colors and with changing fonts. 
+
 ## Different Styling Methods
 ### Inline
 ```css

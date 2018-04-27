@@ -1,5 +1,11 @@
+# To Do
+1. Create a grid based page (possible format for actual pages used in instruction -- to replace Rise)
+2. Fill in sections
+3. Model student page
+
 # CSS Grid
 CSS grid is a feature available on all modern browsers that lets designers lay out websites on a simple grid. This overcomes positioning difficulties from float and flex layouts. 
+
 ## CSS Grid Elements
 1. grid container
 2. grid item
