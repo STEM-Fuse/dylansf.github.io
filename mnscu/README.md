@@ -7,3 +7,6 @@
 * [Cyber Security Deck](https://docs.google.com/presentation/d/1eumsD-FNSRWwPybcdGsDxVcgnMiBttlN33H1yQof4JI/edit?usp=sharing)
 * [Cyber Security Detail](https://docs.google.com/spreadsheets/d/1Fl4kgkWf5DaY2nm4v_gc3Kz1TbrK79enMuOExaC3OfY/edit?usp=sharing)
 
+## New Directions Conference
+
+* [Arizona Cyber Talent](https://www.azcybertalent.com/)
