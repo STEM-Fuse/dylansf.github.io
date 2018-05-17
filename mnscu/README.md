@@ -10,3 +10,4 @@
 ## New Directions Conference
 
 * [Arizona Cyber Talent](https://www.azcybertalent.com/)
+* [MN Cyber](http://metrostateipd.org/mncyber-academy-cybersecurity-training/)
