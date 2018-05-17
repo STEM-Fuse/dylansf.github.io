@@ -1,5 +1,6 @@
-# Stemfuse Advanced Courses
 ![logo](images/sflogo.png)
+
+# Stemfuse Advanced Courses
 
 ## [Web Development](./webdesign)
 ## [Mobile App:IT](./mobile)
