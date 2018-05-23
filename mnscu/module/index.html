@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <style>
+  * {box-sizing: border-box;}
+
+  .grid {
+      display: grid;
+
+  }
+
+  .grid div {
+      border: 1px solid rgb(0, 95, 107);
+      border-radius: 3px;
+      background-color: rgba(0, 95, 107, 0.8);
+      padding: 0.2em;
+      color: #fff;
+      font-size:120%;
+      grid-template-areas: "div"
+                       "div"
+                       "div div"
+                       "div"
+                       "div";
+      grid-template-rows: 100px 100px;
+      grid-template-columns: 150px 1fr;
+  }
+
+  div:nth-child(2n - 1) {
+	background-color: rgba(50,195,38,0.4);
+}
+  </style>
+
+</head>
+<body>
+<div class="grid">
+  <div id="mod">Module</div>
+  <div id="comp">Competencies</div>
+  <div id="cont">Content</div>
+  <div id="disc">Discussion</div>
+  <div id="prac">Practice/Exercises</div>
+  <div id="assess">Assessment</div>
+</div>
+
+
+</body>
+
+</html>
