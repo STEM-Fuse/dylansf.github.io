@@ -9,7 +9,8 @@
 ## Development Resources
 * [Carbon:](https://carbon.now.sh) make pretty code images
 * [Teleprompter](https://telepromptermirror.com/telepromptersoftware.htm)
-
+## Random Useful Tools
+* [Piazza](https://piazza.com/)
 ## MNSCU Data Science and Cyber Security(./mnscu)
 * [Data Science Deck](https://docs.google.com/presentation/d/1hoXTnFjuDYqbSW2t-kozXhX0_D9SqLhqPiE6dXySakQ/edit?usp=sharing)
 * [Data Science Detail](https://docs.google.com/spreadsheets/d/1yL9WeEWctdkWa3Ht9NURmfuYAH3BPuply5p85YnFK9w/edit?usp=sharing)

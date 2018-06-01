@@ -49,4 +49,5 @@ In this course we are going to use several different low cost kits, 3D printed p
 * smart house
 
 
-
+## Random Robotics Resources
+* [RoMeLa](http://www.romela.org/)
