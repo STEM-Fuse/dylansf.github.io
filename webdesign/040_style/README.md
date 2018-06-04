@@ -34,6 +34,9 @@ Declare  different degrees of specificity so that if the computer doesn't have t
 * [FontSquirrel](https://www.fontsquirrel.com/)
 * [Google Fonts](https://fonts.google.com/)
 
+## CSS Resources
+* [W3Schools CSS Reference](https://www.w3schools.com/cssref/default.asp)
+
 ## Feature List
 * 3 Complete HTML pages
 * use inline styling to style "About Me"
