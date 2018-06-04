@@ -1,0 +1,13 @@
+body{
+    background-color: gray;
+}
+p {
+    font-family: Arial;
+    border: solid;
+    background-color: lightgreen;
+}
+h1 {
+    font-family: Arial;
+    color: navy;
+}
+
