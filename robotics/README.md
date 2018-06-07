@@ -51,3 +51,4 @@ In this course we are going to use several different low cost kits, 3D printed p
 
 ## Random Robotics Resources
 * [RoMeLa](http://www.romela.org/)
+* [Blue Robotics](www.bluerobotics.com)
