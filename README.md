@@ -9,6 +9,8 @@
 ## Development Resources
 * [Carbon:](https://carbon.now.sh) make pretty code images
 * [Teleprompter](https://telepromptermirror.com/telepromptersoftware.htm)
+* [jsfiddle](https://jsfiddle.net/)
+* [codepen](codepen.io)
 ## Random Useful Tools
 * [Piazza](https://piazza.com/)
 ## MNSCU Data Science and Cyber Security(./mnscu)
