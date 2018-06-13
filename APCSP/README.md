@@ -25,10 +25,10 @@ App development using Java is a distinct skill. Students will gain familiarity w
 ### Unit 9: Pong
 Students will learn programming and app development concepts by being walked through the development of the famous game Pong.
 ### Unit 10: AP Create Performance Task
-AP Computer Science Principles assessments include an AP Create Performance Task. This task involves the creation of a video of a working program, a written response and completed program code. For more information about the AP Explore Performance task refer to the AP CSP Course and Exam Description. 
+AP Computer Science Principles assessments include an AP Create Performance Task. This task involves the creation of a video of a working program, a written response and completed program code. For more information about the AP Create Performance task refer to the AP CSP Course and Exam Description. 
 ## Part III: Computers and the Internet
 The final part of the course involves learning the fundamentals of how computers and the Internet work. Students will explore the basics of how computers represents data, how people agree on those data representations, and how protocols are developed to allow complex communication to occur across millions of devices. Students will consider ethical issues associated with such connectivity. 
 ### Unit 11: Modern Computer Systems
-A modern computer system involves many components working together seamlessly to create the computing experiences we are familiar with today. Students will understand how the systems are used, what vulnerabilities are associated with different computing paradigms, and how different parts of society uses and depends on computers. 
+A modern computer system involves many components working together seamlessly to create the computing experiences we are familiar with today. Students will understand how the systems are used, what vulnerabilities are associated with different computing paradigms, and how different parts of society use and depend on computers. 
 ### Unit 12: The Internet
 The Internet is a singular modern phenomenon that has created much innovation as well as strife. Students will explore the inner workings of the internet as well as the social and ethical issues surrounding global connectivity. 
