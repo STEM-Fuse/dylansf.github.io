@@ -4,25 +4,6 @@
 
 ### Unit 0: Intro to Computing
 Students will read selected excerpts from "Blown to Bits" and other works regarding the nature of computing in the modern world. Through the reading and explorations using several online resources, students will discuss computing and computational artifacts, and their scope in the modern world. This unit will serve as a jumping off point for the rest of the course. 
-
-1. Blown to Bits
-Have students in groups read one of the Koans from chapter 1 of Blown to Bits.
-Blown to bits is 10 years old, but many of the insights from this book are relevant today. The book is freely available in PDF form from the authors website.
-Class discussion: 
-* What is a koan? A koan is an idea that is meant to inspire thought. Koans are often paradoxes or riddles that are meant to inspire thought.
-
-Divide students into groups of 3 or 4 and assign 1 Koan to each group. Groups should read their koan. Summarize the koan given to your group. What are the benefits of the ideas expressed in your koan? What are the costs or negatives associated?
-
-Students should get the idea of the different sides of the digital revolution and some truths about how the digital world works. 
-
-2. Lightbot
-
-Students will explore creating algorithms by programming lightbot. Lightbot is a lamp that is programmed with certain moves. Lightbot can move forward, turn the direction it is facing, jump and light-up the blue square. Students should play the lightbot tutorial. 
-
-
-
-
-
 ## Part I: Web Development
 This part of the course will introduce students to the fundamentals of designing for the web. While the web has changed much over the years since it's inception, several major technologies have been widespread throughout. These are HTML, CSS and JavaScript. These will be the major focus on this part of the course. In addition to technologies we will explore design paradigms that are common in web design. We will discuss the Software Development life cycle as well as Mobile First and Responsive design that are important for today's web, which must be accessed from many devices. 
 ### Unit 1: HTML and CSS
