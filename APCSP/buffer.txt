@@ -1,0 +1,7 @@
+https://s3.amazonaws.com/lightbot/lightbot-codehour.swf
+
+<iframe name="lightbot"
+src="https://s3.amazonaws.com/lightbot/lightbot-codehour.swf" wmode="window" allowfullscreen="true" width="960" height="640">
+</iframe>
+
+<embed src="https://s3.amazonaws.com/lightbot/lightbot-codehour.swf" wmode="window" allowfullscreen="true" width="960" height="640">
