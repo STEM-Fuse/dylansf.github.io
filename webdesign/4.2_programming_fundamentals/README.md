@@ -79,7 +79,16 @@ numbers = [1, 2, 5, 12, 19];
 ```
 
 ## Math
-Arithmetic. Random number generator
+Arithmetic. Random number generator. Expressions. Operators
+* Expressions evaluate into values
+An expression is a statement that puts some information into a variable. Simple expressions assign a value to a variable. More complicated expressions can use two or more values to decide what to put in a variable.
+```javascript
+// This expression assigns a value to a variable
+var name = 'Hodor';
+
+// This expression uses 2 values to determine the value of a variable
+var hoursPerWeek = 24 * 7;
+```
 
 
 ## Functions
