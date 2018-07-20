@@ -19,7 +19,11 @@ To explore our <div> element we will create a div on a new Codepen.
 
 ```
 
-* Using @ to create different breakpoint
+
+
 
 ## Float
 Float takes elements out of normal document flow and moves them around. This is a good way to get text to go around pictures etc.
+
+## Other stuff
+* Using @ to create different breakpoint
