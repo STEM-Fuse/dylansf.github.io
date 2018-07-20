@@ -46,7 +46,7 @@ Solutions should have a problem focus. That is students should spend time decidi
     * When does this problem occur?
     * Where is this a problem?
     * Why is it important to solve the problem?
-2. 
+2. Ideal, reality, consequence 
 ## Parts of the Problem Statement
 1. What problem are you trying to solve?
 2. Problem validation

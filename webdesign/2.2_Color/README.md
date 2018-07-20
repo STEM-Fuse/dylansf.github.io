@@ -40,6 +40,31 @@ And here is an image of the palette. Generate this image by exporting the PNG of
 I am using this color scheme for the rest of the project. 
 
 ## Feature List
+## Variables
+* preprocessor variables
+* custom processors
+* css variables 
+    * update the value from with a file
+
+```css
+:root{
+    --font-color = black;
+}
+```
+
+## Blending and filtering
+
+## Shapes
+* css shapes editor extension
+* clip-path
+    * bennetfeely/clippy
+
+## new color values
+* 8 digit hex, last 2 are alpha (00 transparent, FF opaque)
+* color-mod()
+    * hue
+    * lightness
+    * . . .
 
 ## To Do
 1. Moved most of the content of this into HTML5 Section. 

@@ -1,6 +1,7 @@
 # Introduction to Web Development
 ## To Do 6/8/18
 
+"Good Practice: Use the least powerful language suitable for expressing information, constraints or programs on the World Wide Web." -W3C principle 
 
 ## 1. Introduction to Web Design
 
