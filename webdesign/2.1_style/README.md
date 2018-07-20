@@ -26,6 +26,18 @@ p {
     font-family: sans-serif;
 }
 ```
+## CSS Rules
+CSS creates rules for different HTML elements. Use a SELECTOR to tell CSS what HTML element you want to style. Use a DECLARATION to create a specific rule. The declaration must be inside curly brackets. More than one declaration can be inside the curly brackets but they must be separated by semicolons. 
+
+Declarations have 2 parts: the first part is the property, the second is called the value. The property is the particular feature of the element that we want to style. The value is how we want to style it.
+
+```css
+selector {
+    declaration;
+    property: value;
+}
+```
+
 
 ## Fonts
 ### Font Family
