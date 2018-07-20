@@ -1,5 +1,11 @@
 # HTML5
 
+## HTML Tags
+
+HTML 5 has special tags that are more informative than divs
+
+* [List of HTML5 tags](https://www.w3schools.com/html/html5_semantic_elements.asp)
+
 Now we are making a page with HTML5 specific tags. 
 1. Make your index.html file with this template:
 ```html
@@ -69,5 +75,7 @@ Now we are making a page with HTML5 specific tags.
 ```
 
 Having lots of problems getting the columns to work. Coming back around to this once I do the columns alone. 
+
+
 
 ## Feature List

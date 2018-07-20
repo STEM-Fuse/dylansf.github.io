@@ -18,7 +18,11 @@ To explore our <div> element we will create a div on a new Codepen.
 </div>
 
 ```
-
+1. Create divs called red, green, and blue
+2. Style red, green and blue
+    * make 100 px tall
+    * set background color
+    
 
 
 
