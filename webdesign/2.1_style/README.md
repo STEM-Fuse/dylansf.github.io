@@ -7,6 +7,50 @@
 ## What is style?
 In a webpage style refers to all the ways you can change how a part of the page looks. You can change colors, sizes, place on the page, fonts, borders and much more. We will start by adding some background and text colors and with changing fonts. 
 
+## CSS Rules
+CSS creates rules for different HTML elements. Use a SELECTOR to tell CSS what HTML element you want to style. Use a DECLARATION to create a specific rule. The declaration must be inside curly brackets. More than one declaration can be inside the curly brackets but they must be separated by semicolons. 
+
+Declarations have 2 parts: the first part is the property, the second is called the value. The property is the particular feature of the element that we want to style. The value is how we want to style it.
+
+```css
+selector {
+    declaration;
+    property: value; /* this is a comment */
+}
+```
+Let's look at some rules and the CSS rule needed to implement the desired style. For each case identify the selector, declaration, property and value.
+
+### Rule: Paragraph text will be bold.
+```css
+p{
+    text-style: bold;
+}
+```
+### Rule: Webpage will have a grey background.
+```css
+body{
+    background: grey;
+}
+```
+### Rule: Header 1 will have an orange background.
+```css
+h1{
+    background: orange;
+}
+```
+Declarations are often grouped together in *CSS Declaration blocks*. For example:
+
+### Rule: Paragraph text is bold, font is sans-serif, text color is white, background is navy blue.
+```css
+p{
+    text-style: bold;
+    font-family: sans-serif;
+    text-color: white;
+    background: navy;
+}
+```
+
+
 ## Different Styling Methods
 ### Inline
 ```css
@@ -24,17 +68,6 @@ p {
 ```css
 p {
     font-family: sans-serif;
-}
-```
-## CSS Rules
-CSS creates rules for different HTML elements. Use a SELECTOR to tell CSS what HTML element you want to style. Use a DECLARATION to create a specific rule. The declaration must be inside curly brackets. More than one declaration can be inside the curly brackets but they must be separated by semicolons. 
-
-Declarations have 2 parts: the first part is the property, the second is called the value. The property is the particular feature of the element that we want to style. The value is how we want to style it.
-
-```css
-selector {
-    declaration;
-    property: value;
 }
 ```
 
