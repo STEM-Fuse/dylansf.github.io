@@ -1,0 +1,32 @@
+body {
+    width: 400px;
+}
+
+.one{
+    background: red;
+}
+.two{
+    background: yellow;
+}
+.three{
+    background: green;
+}
+.four{
+    background: blue;
+}
+.five{
+    background: violet;
+}
+
+.box{
+    height: 100px;
+    width: 20%;
+    float: left;
+}
+
+.row{
+    height: 100px;
+    width: 100%;
+    background: linear-gradient(to right, red, yellow, green, blue, violet);
+    float: left;
+}
