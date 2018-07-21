@@ -13,28 +13,30 @@ CSS creates rules for different HTML elements. Use a SELECTOR to tell CSS what H
 Declarations have 2 parts: the first part is the property, the second is called the value. The property is the particular feature of the element that we want to style. The value is how we want to style it.
 
 ```css
+
 selector {
     declaration;
     property: value; /* this is a comment */
 }
+
 ```
 Let's look at some rules and the CSS rule needed to implement the desired style. For each case identify the selector, declaration, property and value.
 
 ### Rule: Paragraph text will be bold.
 ```css
-p{
+p {
     text-style: bold;
 }
 ```
 ### Rule: Webpage will have a grey background.
 ```css
-body{
+body {
     background: grey;
 }
 ```
 ### Rule: Header 1 will have an orange background.
 ```css
-h1{
+h1 {
     background: orange;
 }
 ```
