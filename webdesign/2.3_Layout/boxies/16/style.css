@@ -1,0 +1,66 @@
+body {
+    width: 400px;
+}
+
+.row1 .col1{
+    background: #0f0;
+}
+.row1 .col2{
+    background: #1e0;
+}
+.row1 .col3{
+    background: #2d0;
+}
+.row1 .col4{
+    background: #3c0;
+}
+
+.row2 .col1{
+    background: #4b0;
+}
+
+.row2 .col2{
+    background: #5a0;
+}
+.row2 .col3{
+    background: #690;
+}
+.row2 .col4{
+    background: #780;
+}
+
+.row3 .col1{
+    background: #870;
+}
+
+.row3 .col2{
+    background: #960;
+}
+.row3 .col3{
+    background: #a50;
+}
+.row3 .col4{
+    background: #b40;
+}
+
+
+.row4 .col1{
+    background: #c30;
+}
+
+.row4 .col2{
+    background: #d20;
+}
+.row4 .col3{
+    background: #e10;
+}
+.row4 .col4{
+    background: #f00;
+}
+
+.box{
+    height: 100px;
+    width: 24%;
+    float: left;
+}
+
