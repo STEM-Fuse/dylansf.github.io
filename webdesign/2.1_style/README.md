@@ -85,6 +85,49 @@ Declare  different degrees of specificity so that if the computer doesn't have t
 ## CSS Resources
 * [W3Schools CSS Reference](https://www.w3schools.com/cssref/default.asp)
 
+
+## CSS Selectors
+### Universal Selector
+```css
+* {
+    property: value;
+}
+```
+### Class Selector
+
+```css
+.class {
+    property: value;
+}
+```
+#### Sample Class Selector
+```html
+<p class="intro">This is the intro paragraph and will be styled by the intro class selector</p>
+```
+```css
+.intro {
+    font: italic bold .8em/1.2 Arial, sans-serif; 
+}
+```
+### ID Selector
+```css
+#id {
+    property: value;
+}
+```
+### HTML
+```html
+<h1>Learning Some CSS</h1>
+<img src="http://via.placeholder.com/350x250">
+<p>Examine she brother prudent add day ham. Far stairs now coming bed oppose hunted become his. You zealously departure had procuring suspicion.</p> 
+<p>Books whose front would purse if be do decay. Quitting you way formerly disposed perceive ladyship are. Common turned boy direct and yet. </p>
+```
+### CSS
+```css
+* {
+  background: lightblue;
+}
+```
 ## Feature List
 * 3 Complete HTML pages
 * use inline styling to style "About Me"
