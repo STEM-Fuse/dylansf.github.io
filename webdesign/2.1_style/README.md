@@ -103,16 +103,31 @@ Declare  different degrees of specificity so that if the computer doesn't have t
 #### Sample Class Selector
 ```html
 <p class="intro">This is the intro paragraph and will be styled by the intro class selector</p>
+<p class="intro"> This paragraph will also be styled</p>
 ```
 ```css
 .intro {
-    font: italic bold .8em/1.2 Arial, sans-serif; 
+    font: italic .8em/1.2 Arial, sans-serif; 
 }
 ```
 ### ID Selector
 ```css
 #id {
     property: value;
+}
+```
+#### Sample ID Selector
+```html
+<p id="start">This is paragraph will be styled with the start ID selector. It should be the only one with this ID.</p>
+<p class="intro">This paragraph will be styled with the intro class selector.</p>
+<p class="intro">We can use the intro class selector to style other paragraphs as well.</p>
+```
+```css
+.intro {
+    font: italic .8em/1.2 Arial, sans-serif; 
+}
+#start {
+    font: bold;
 }
 ```
 ### HTML
