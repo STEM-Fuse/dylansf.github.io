@@ -122,7 +122,7 @@ Declare  different degrees of specificity so that if the computer doesn't have t
 <p class="intro">This paragraph will be styled with the intro class selector.</p>
 <p class="intro">We can use the intro class selector to style other paragraphs as well.</p>
 ```
-```css
+```css 
 .intro {
     font: italic .8em/1.2 Arial, sans-serif; 
 }
