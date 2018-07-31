@@ -50,7 +50,73 @@ Add this HTML. This will create two divs that will have the style of two classes
 
 
 ## Float
-Float takes elements out of normal document flow and moves them around. This is a good way to get text to go around pictures etc.
+Float takes elements out of normal document flow and moves them around. This is a good way to get text to go around pictures and position columns. Let's work an example in codepen using the colored boxes we created in the last lesson. Check that you have HTML and CSS as shown in the image below.
 
-## Other stuff
-* Using @ to create different breakpoint
+```css
+.box {
+  height: 100px;
+  width: 100px;
+  float: left;
+}
+```
+For each of the following images, find the CSS to generate that box arrangement.
+1. 
+```css
+.box {
+  height: 100px;
+  width: 100px;
+  float: left;
+}
+.red {
+  background: red;
+}
+.blue {
+  background: blue;
+}
+.green {
+  background: green;
+}
+```
+2.
+```css
+.box {
+  height: 100px;
+  width: 100px;
+}
+.red {
+  background: red;
+  float: left;
+}
+.blue {
+  background: blue;
+  float: right;
+}
+.green {
+  background: green;
+  float: left;
+}
+```
+3.
+```css
+.box {
+  height: 100px;
+  width: 100px;
+}
+.red {
+  background: red;
+  float: right;
+}
+.blue {
+  background: blue;
+  float: right;
+}
+.green {
+  background: green;
+  float: left;
+}
+```
+### Add image wrapping text here.
+### Add Multi-Column practice here.
+
+
+
