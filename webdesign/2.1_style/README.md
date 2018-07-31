@@ -93,27 +93,81 @@ Declare  different degrees of specificity so that if the computer doesn't have t
     property: value;
 }
 ```
+### HTML
+```html
+<h1>Learning Some CSS</h1>
+<img src="http://via.placeholder.com/350x250">
+<p>Examine she brother prudent add day ham. Far stairs now coming bed oppose hunted become his. You zealously departure had procuring suspicion.</p> 
+<p>Books whose front would purse if be do decay. Quitting you way formerly disposed perceive ladyship are. Common turned boy direct and yet. </p>
+```
+### CSS
+```css
+* {
+  background: lightblue;
+}
+```
 ### Class Selector
+We can use an attribute called class to create styles for multiple elements. To use a class, we will first put a class attribute in one of our tags. 
+```html
+<p class="intro">This text will be styled with the intro class</p>
 
+<img class="profile" src="profile.jpg">
+```
+#### Class Rule Syntax
+Once we have added classes to HTML tags we need to write the CSS rules. To tell CSS that we are styling a class instead of a type, we start the selector with a period. The image below shows the syntax of a class. Notice that the selector starts with a period.
 ```css
 .class {
     property: value;
 }
 ```
+Now the we know how to create a class style let's style the paragraph and image tags from the example above. We are going to style the paragraph to have white text on a navy background, and we will style the image to be 100 pixels tall. To this we will apply the following style sheet:
+```css
+.intro {
+    color: white;
+    background: navy;
+}
+.profile {
+    height: 100px;
+}
+```
 #### Sample Class Selector
+### HTML
 ```html
 <p class="intro">This is the intro paragraph and will be styled by the intro class selector</p>
 <p class="intro"> This paragraph will also be styled</p>
+<p>This paragraph will not use the intro class styling<p>
 ```
+
+### CSS
 ```css
 .intro {
     font: italic .8em/1.2 Arial, sans-serif; 
 }
 ```
 ### ID Selector
+Sometime we want to create unique tags that have a styling all to themselves. Maybe we always have a headline on a page and it should always get the same styling. To create a unique style element we will use the ID attribute in the HTML tag and style it using an ID selector in the CSS. Here are two sample ID tags:
+```html
+<h1 id="headline">The Only Headline</h1>
+<p id="big_quote">This is the only big quote on the page</p> 
+```
 ```css
 #id {
     property: value;
+}
+```
+```css
+#headline {
+    font: 32px Arial, sans-serif;
+    color: white;
+    background: maroon;
+    padding: 20px;
+}
+#big_quote {
+    font: 16px Garamond, serif;
+    color: navy;
+    border-top: solid;
+    border-bottom: solid;
+    padding:  20px;
 }
 ```
 #### Sample ID Selector
@@ -130,19 +184,7 @@ Declare  different degrees of specificity so that if the computer doesn't have t
     font: bold;
 }
 ```
-### HTML
-```html
-<h1>Learning Some CSS</h1>
-<img src="http://via.placeholder.com/350x250">
-<p>Examine she brother prudent add day ham. Far stairs now coming bed oppose hunted become his. You zealously departure had procuring suspicion.</p> 
-<p>Books whose front would purse if be do decay. Quitting you way formerly disposed perceive ladyship are. Common turned boy direct and yet. </p>
-```
-### CSS
-```css
-* {
-  background: lightblue;
-}
-```
+
 ## Feature List
 * 3 Complete HTML pages
 * use inline styling to style "About Me"
