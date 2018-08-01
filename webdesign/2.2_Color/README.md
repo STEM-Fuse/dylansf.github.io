@@ -1,6 +1,9 @@
 # Color
 
 We will explore color by using some online tools to create color palettes, then we will use CSS to add those colors to our pages. 
+```html
+<iframe height="265" scrolling="no" title="rgb color sliders" src="//codepen.io/instructionalist/embed/XEOwBp/?height=265&theme-id=0&default-tab=result&embed-version=2" frameborder="no" allowtransparency="true" allowfullscreen="true" style="width: 100%;"></iframe>
+```
 
 ## Palette Tools
 * [Material Design Palette](https://www.materialpalette.com/)
