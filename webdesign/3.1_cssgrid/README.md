@@ -4,14 +4,50 @@
 3. Model student page
 
 # CSS Flexbox
-Before flexbox:
+## Before flexbox:
 * absolute or relative position
 * Floats and clear fixes
 * fixed heights
 
-Flexbox:
+## Flexbox:
 Position, size and spacing relative to parent container
 
+### HTML Sample
+```html
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>The Net Ninja - CSS Flexbox</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="flex-container">
+        <div class="box one"></div>
+        <div class="box two"></div>
+        <div class="box three"></div>
+      </div>
+    </div>
+  </body>
+</html>
+```
+
+```css
+* {
+    font-family: verdana;
+    margin: 0;
+}
+
+body {
+    background: #eee;
+}
+
+.wrapper {
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
+}
+```
 
 # CSS Grid
 CSS grid is a feature available on all modern browsers that lets designers lay out websites on a simple grid. This overcomes positioning difficulties from float and flex layouts. 
