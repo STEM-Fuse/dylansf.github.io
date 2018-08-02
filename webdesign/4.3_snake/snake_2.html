@@ -1,0 +1,117 @@
+
+<canvas id="game" width="400" height="400"></canvas>
+<script>
+window.onload=function() {
+    canvas=document.getElementById("game");
+    ctx=canvas.getContext("2d");
+    document.addEventListener("keydown", keyPush);
+    setInterval(game_function,1000/15);
+}
+pos_x = 10; // x position -- starts at 10
+pos_y = 10; // y position -- starts at 10
+
+grid_size = 20; // grid size
+tile_count = 20; // tile count
+
+x_vel = 0; // x velocity
+y_vel = 0; // y velocity
+
+apple_x = 15; // apple x position
+apple_y = 15; // apple y position
+
+trail = []; // array to hold tail positions
+tail_length = 5; // set the initial tail length 
+
+function game_function() {
+
+    // move position based on velocity
+    pos_x = pos_x + x_vel;
+    pos_y = pos_y + y_vel;
+
+    // if the x position is less than 0, send the snake to the other side
+    if(pos_x < 0) {
+        pos_x = tile_count - 1;
+    }
+
+    // if the x position is greater than the tile count, send the snake to 0 
+    if(pos_x > tile_count - 1) {
+        pos_x = 0;
+    }
+
+    // if the y position is less than 0, send the snake to the other side
+    if(pos_y < 0) {
+        pos_y = tile_count - 1;
+    }    
+
+    // if the y position is greater than the tile count, send the snake to the other side
+    if(pos_y > tile_count - 1) {
+        pos_y = 0;
+    }
+
+    // color in the canvas
+    ctx.fillStyle = "black";
+    ctx.fillRect(0, 0, canvas.width, canvas.height);
+
+    // color the snake
+    ctx.fillStyle = "lime";
+    for(var i = 0; i < trail.length; i++) {
+        ctx.fillRect(trail[i].x * grid_size, 
+            trail[i].y * grid_size, grid_size - 2,
+            grid_size - 2)
+        
+        // check to see if snake hit its own tail
+        if(trail[i].x == pos_x && trail [i].y == pos_y) {
+            // restart at original tail length of 5
+            tail_length = 5;
+        }
+    }
+
+    // create the trail array. This is an array of x and y values. We already used them above when we called trail[i].x and trail[i].y
+
+    trail.push({x:pos_x, y:pos_y}); 
+    while(trail.length > tail_length){
+        trail.shift(); // this is how our snake moves
+    }
+
+    // snake eats an apple
+    if (apple_x == pos_x && apple_y == pos_y) {
+        // increase the length of the snake by 1
+        tail_length++;
+
+        //put a new apple in a random spot
+        apple_x = Math.floor(Math.random()*tile_count);
+        apple_y = Math.floor(Math.random()*tile_count)
+    }
+
+    // color in the apple
+    ctx.fillStyle="red";
+    ctx.fillRect(apple_x * grid_size, apple_y * grid_size, grid_size - 2, grid_size - 2)
+}
+
+function keyPush(event) {
+    // get arrow keys using their codes: 37, 38, 39, 40
+    switch(event.keyCode) {
+
+        case 37:
+            x_vel = -1;
+            y_vel = 0;
+            break;
+
+        case 38:
+            x_vel = 0;
+            y_vel = -1;
+            break;
+
+        case 39:
+            x_vel = 1;
+            y_vel = 0;
+            break;
+        
+        case 40:
+            x_vel = 0;
+            y_vel = 1;
+            break;
+    }
+}
+
+</script>
