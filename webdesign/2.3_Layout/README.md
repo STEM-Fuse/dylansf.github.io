@@ -117,6 +117,7 @@ For each of the following images, find the CSS to generate that box arrangement.
 ```
 ### Add image wrapping text here.
 ### Add Multi-Column practice here.
-
-
+```html
+<iframe scrolling="no" title="Clearing Floats" src="https://codepen.io/instructionalist/embed/pZLXOr/?height=265&theme-id=0&default-tab=html,result&embed-version=2" frameborder="no" allowtransparency="true" allowfullscreen="true" style="width: 100%;"></iframe>
+```
 
