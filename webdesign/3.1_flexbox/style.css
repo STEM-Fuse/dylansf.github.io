@@ -15,7 +15,6 @@ article {
     margin: 10px;
     background: lightblue;
     flex-grow: 1;
-    flex-shrink: 1;
 }
 section {
     display: flex;
