@@ -1,0 +1,24 @@
+/* 1. Define grid-container */
+body {
+  display: grid;
+  min-height: 100%;
+  /* 2. Rows and columns -- fr fractions */
+  grid-template-rows: 1fr 100px;
+  grid-template-columns: 50px 1fr;
+  /* 3. Make the areas */
+  grid-template-areas: "sidebar content"
+                       "footer footer";
+}
+
+.aside {
+  background: red;
+  grid-area: sidebar;
+}
+.main {
+ background: grey;
+ grid-area: content;
+}
+.footer {
+  background: purple;
+  grid-area: footer;
+}
