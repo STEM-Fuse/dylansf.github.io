@@ -14,7 +14,6 @@ article {
     padding: 10px;
     margin: 10px;
     background: lightblue;
-    flex-grow: 1;
 }
 section {
     display: flex;
