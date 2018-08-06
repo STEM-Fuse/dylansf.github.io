@@ -14,9 +14,27 @@ article {
     padding: 10px;
     margin: 10px;
     background: lightblue;
-    flex-grow: 1;
+    flex: 1;
 }
 section {
     display: flex;
+}
+ul {
+    color: white;
+    list-style: none;
+    padding-left: 0;
+}
+li {
+    padding: 10px 0;
+}
+.sidebar {
+    padding: 10px;
+    margin: 10px 10px 10px 0;
+    background: navy;
+}
+footer {
+    background: navy;
+    color: white;
+    height: 60px;
 }
 
