@@ -1,0 +1,12 @@
+body {
+    font: 2em/4em monospace; 
+}
+.container {
+    background: skyblue;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.cell {
+    border: solid blue;
+}
