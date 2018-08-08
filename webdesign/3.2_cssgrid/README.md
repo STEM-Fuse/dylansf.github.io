@@ -62,6 +62,9 @@ CSS grid is a feature available on all modern browsers that lets designers lay o
 7. grid gap
 ## Defining a Grid
 
+```
+<iframe src="http://codepen.io/instructionalist/embed/VBEyGV/?height=265&theme-id=0&default-tab=css,result&embed-version=2"></iframe>
+```
 ## Adding Elements to a Grid
 
 ## Building Responsive Web Pages
