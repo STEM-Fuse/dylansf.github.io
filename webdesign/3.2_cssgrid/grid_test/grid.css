@@ -10,6 +10,8 @@ body {
                        "footer footer";
 }
 
+/* 4. Style the sections */
+
 .aside {
   background: red;
   grid-area: sidebar;
