@@ -35,8 +35,9 @@ width = 6;
 height = 3;
 area = width * height;
 
-var el = document.getElementById('cost');
-el.textContent = '$' + total;
+// print to some html
+var el = document.getElementById('area');
+el.textContent = area + ' square inches';
 ```
 
 * You can declare and assign variables on the same line
@@ -68,7 +69,6 @@ isInClass = false;
 ```javascript
 var colors;
 colors = ['red', 'green', 'blue'];
-
 
 // Colors array declared another way
 var colors = new Array('red', 'green', 'blue');
