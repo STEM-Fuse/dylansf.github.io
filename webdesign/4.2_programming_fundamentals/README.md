@@ -78,8 +78,22 @@ var numbers;
 numbers = [1, 2, 5, 12, 19];
 ```
 
-## Math
+## Operators and Expressions
 Arithmetic. Random number generator. Expressions. Operators
+### Arithmetic Operators
+
+
+| Operator   |   Description | Example| | |
+|------------|---------------|---------:|:-:|:--|
+| + | Addition | 3 + 4 |=| 7 |
+| - | Subtraction | 9 - 5 |=| 4|
+| * | Multiplication | 8 * 3 |=| 24|
+| / | Division | 12 / 3 |=| 4|
+| % | Modulus (remainder) | 7 % 3 |=| 1|
+| ++ | Increment | 4++ |=| 5 |
+| -- | Decrement | 3-- |=| 2 |
+
+
 * Expressions evaluate into values
 An expression is a statement that puts some information into a variable. Simple expressions assign a value to a variable. More complicated expressions can use two or more values to decide what to put in a variable.
 ```javascript
