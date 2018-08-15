@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>JavaScript Alert</h2>
+
+<button onclick="myFunction()">Try it</button>
+<form action="#n" name="theForm">
+
+        <label for="gender">Gender: </label>
+        <input type="radio" name="genderS" value="1" checked> Male
+        <input type="radio" name="genderS" value="0" > Female<br><br>
+        <a href="javascript: submitForm()">Search</A>
+</form>
+<script>
+function myFunction() {
+    alert("I am an alert box!");
+    document.body.style.background = "yellow";
+
+    var radios = document.getElementsByName('genderS');
+
+    for (var i = 0, length = radios.length; i < length; i++)
+    {
+        if (radios[i].checked)
+        {
+        // do whatever you want with the checked radio
+        alert(radios[i].value);
+
+        // only one radio can be logically checked, don't check the rest
+        break;
+        }
+    }
+}
+
+</script>
+
+</body>
+</html>
