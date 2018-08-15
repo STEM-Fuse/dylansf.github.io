@@ -104,6 +104,12 @@ var name = 'Hodor';
 var hoursPerWeek = 24 * 7;
 ```
 
+## Conditionals
+* Ifs and maybe cases.
+* Random number guessing game
+
+## Loops
+For and while loop. Starting terminating loops and ending terminating loops. 
 
 ## Functions
 
@@ -117,17 +123,6 @@ var class = {
 
 }
 ```
-
-
-
-## Conditionals
-* Ifs and maybe cases.
-* Random number guessing game
-
-## Loops
-For and while loop. Starting terminating loops and ending terminating loops. 
-
-
 
 ## Assignments
 Game or story.
