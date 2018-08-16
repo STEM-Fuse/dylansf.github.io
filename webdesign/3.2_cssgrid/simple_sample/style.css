@@ -9,4 +9,5 @@ body {
 }
 .cell {
     border: solid blue;
+    text-align: center;
 }
