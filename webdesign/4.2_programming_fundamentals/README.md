@@ -112,6 +112,7 @@ var hoursPerWeek = 24 * 7;
 For and while loop. Starting terminating loops and ending terminating loops. 
 
 ## Functions
+This needs to be included later
 
 ## Objects
 
