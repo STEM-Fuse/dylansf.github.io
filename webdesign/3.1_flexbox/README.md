@@ -2,8 +2,7 @@
 
 
 ```html
-<iframe src="//codepen.io/instructionalist/embed/pZVYLR/?height=265&theme-id=0&default-tab=css,result&embed-version=2&editable=true">
-</iframe>
+<iframe src="//codepen.io/instructionalist/embed/pZVYLR/"></iframe>
 
 <iframe scrolling="no" title="Flexbox 1" src="https://codepen.io/instructionalist/embed/pZVYLR?height=265&theme-id=0&default-tab=css,result&embed-version=2&editable=true" frameborder="no" allowtransparency="true" allowfullscreen="true" style="width: 100%;"></iframe>
 
