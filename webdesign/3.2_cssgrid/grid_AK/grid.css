@@ -1,0 +1,37 @@
+/* Create a 3x3 grid inside the main area */
+/* 1. Make main a flex container with display:grid */
+/* 2. Add rows and columns with grid-template */
+/* 3. Add .cell and #color styling for new HTML */
+
+body {
+  display: grid;
+  min-height: 100%;
+  grid-template-rows:  1fr 100px;
+  grid-template-columns: 50px 1fr;
+  grid-template-areas: "sidebar content"
+                       "footer footer";
+}
+.aside {
+  background: red;
+  grid-area: sidebar;
+}
+.main {
+  background: grey;
+  grid-area: content;
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.footer {
+  background: purple;
+  grid-area: footer;
+}
+.cell {
+  border: solid .5px; 
+}
+
+#color {
+  background: red;
+  grid-column: 3;
+  grid-row: 1;
+}
