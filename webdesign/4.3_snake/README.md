@@ -13,9 +13,11 @@ Now we will create a script element where we will put all our JavaScript.
 
 Now we are going to create a javascript function that will run every time our window opens. This function starts by creating a variable that will refer to the canvas element in our HTML file. We use the getElementById, to get the canvas, that we gave the ID to game.
 
-CTX is a context that gives us some rules for drawing on our canvas. The getContext(2d) functions. Now we can use CTX 
+CTX is a context that gives us some rules for drawing on our canvas. 
 
-Next we are going to add 
+Then we add the event listener, to check for key presses. Then it will run the keyPush function.
+
+Finally we are going to use the set interval function to update our game. We are going to set it to run 15 times a second.
 
 ```javascript
 window.onload=function() {
@@ -25,6 +27,9 @@ window.onload=function() {
     setInterval(game_function,1000/15);
 }
 ```
+
+Now it is time to add x and y position. We are going to crea
+
 ```javascript
 pos_x = 10; // x position -- starts at 10
 pos_y = 10; // y position -- starts at 10
