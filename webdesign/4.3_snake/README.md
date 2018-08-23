@@ -178,34 +178,13 @@ We now add the code to draw the apple. The fill style sets our color and the fil
     ctx.fillRect(apple_x * grid_size, apple_y * grid_size, grid_size - 2, grid_size - 2)
 }
 ```
+Finally lets add the code that will make the player restart if the snake hits its own tail.
+```javascript
 
-```javascript
-    // color the snake
-    ctx.fillStyle = "lime";
-    for(var i = 0; i < trail.length; i++) {
-        ctx.fillRect(trail[i].x * grid_size, 
-            trail[i].y * grid_size, grid_size - 2,
-            grid_size - 2)
-        
         // check to see if snake hit its own tail
         if(trail[i].x == pos_x && trail [i].y == pos_y) {
             // restart at original tail length of 5
             tail_length = 5;
         }
-    }
-```
-```javascript
-    // color the snake
-    ctx.fillStyle = "lime";
-    for(var i = 0; i < trail.length; i++) {
-        ctx.fillRect(trail[i].x * grid_size, 
-            trail[i].y * grid_size, grid_size - 2,
-            grid_size - 2)
-        
-        // check to see if snake hit its own tail
-        if(trail[i].x == pos_x && trail [i].y == pos_y) {
-            // restart at original tail length of 5
-            tail_length = 5;
-        }
-    }
+
 ```
