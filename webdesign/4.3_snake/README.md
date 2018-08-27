@@ -1,4 +1,7 @@
 # Snake Game Steps
+## iframe
+<iframe src="https://codepen.io/instructionalist/pen/eKdvqa"></iframe>
+
 
 ## Script
 
@@ -28,7 +31,7 @@ window.onload=function() {
 }
 ```
 
-Now it is time to add x and y position. We are going to crea
+Now it is time to add x and y position, x and y velocity, and grid sizes, tile sizes and variables used to create the snake's tail. 
 
 ```javascript
 pos_x = 10; // x position -- starts at 10
@@ -193,4 +196,5 @@ Finally lets add the code that will make the player restart if the snake hits it
         }
 
 ```
-\
+
+
