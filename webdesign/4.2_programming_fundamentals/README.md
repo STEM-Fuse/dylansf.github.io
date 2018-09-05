@@ -125,5 +125,42 @@ var class = {
 }
 ```
 
+## Buffer
+1. Come up with a sample calculation using each operator. Confirm it does what you expect using the dev console. 2. Use variable named x, y and z  to store different values. Create the values from expressions that have two or more values combined with operators. 3. Use each comparison operator with your x, y and z variables to create at least one true and one false outcome for each comparison operator. 4. Save and turn in your console log.
+
+
+1. Save your snippet using an if-else statement. 2. Save your snippet using a switch statement. 3. Create a snippet that performs the same as the switch statement using only if statements.
+
+Flowchart
+
+Create a flowchart for any process you know how to do. This could be anything from solving a basic math problem, making a sandwich, or doing some chores. Your flowchart should include some kind of decision that you could use an if-statement or a switch-statement to describe. 
+
+JavaScript
+
+Use the dev-console in Chrome to do the following calculations
+
+1185 x 1.6453 
+2.3 / 16723
+(132 - 67)2
+(12 + 36573) x 187
+Remainder of 679425367 / 10007
+ 
+Create JavaScript Enabled Web Page
+
+Starting with the sample we created in the first section, create your own JavaScript enabled page. Decide on one way to modify the current sample file and modify the code. Then style and decorate your HTML page. Once you have successfully modified your page, it is time to plan and create a new web page. 
+
+In a group or by yourself, at the direction of your teacher, research and brainstorm a simple JavaScript project. Your project should consist of the following components:
+
+Page proposal
+What will your page do? What is it for?
+Wireframe
+Sketch of how the page will look.
+Flowchart
+What is the JavaScript going to do on your page?
+HTML
+CSS
+JavaScript
+Be sure to add your completed page to your portfolio site!
+
 ## Assignments
 Game or story.
