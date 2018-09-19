@@ -9,3 +9,7 @@
 <iframe scrolling="no" title="rgb color sliders" src="https://codepen.io/instructionalist/embed/XEOwBp?height=265&theme-id=0&default-tab=result&embed-version=2" frameborder="no" allowtransparency="true" allowfullscreen="true" style="width: 100%;"></iframe> 
 
 ```
+
+## Flexbox games
+- [Flexbox Froggy](https://flexboxfroggy.com/)
+- [Flexbox Defense](http://www.flexboxdefense.com/)
